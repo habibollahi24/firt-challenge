@@ -8,7 +8,7 @@ const Features = () => {
         <div>
           <img src={featureImage} alt="headerImage" />
         </div>
-        <div className="md:px-8">
+        <div className="">
           <h2 className="text-blue-600 font-semibold mb-4">Our Feature</h2>
           <h1 className="text-4xl text-gray-900 font-bold leading-[3rem]">
             Resive Payment Quikly from AnyWhere

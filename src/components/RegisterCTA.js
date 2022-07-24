@@ -1,8 +1,12 @@
 import React from "react";
+import pashmak from "../assets/images/pashm.svg";
 
 const RegisterCTA = () => {
   return (
-    <div className="my-container mt-12">
+    <div className="my-container mt-12 relative">
+      <div className="absolute -top-10 right-0">
+        <img src={pashmak} alt="" />
+      </div>
       <div className="bg-slate-100 rounded-3xl py-12 px-4 grid md:grid-cols-2 gap-y-10">
         <div className="md:px-8">
           <h2 className="text-blue-600 font-semibold mb-4">Our Feature</h2>

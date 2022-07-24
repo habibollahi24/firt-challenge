@@ -13,8 +13,8 @@ const Companies = () => {
       <h2 className="text-gray-900 font-semibold text-center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </h2>
-      <div className="flex flex-col md:flex-row items-center justify-center space-x-5 mt-4">
-        <div className="p-6">
+      <div className="flex flex-col md:flex-row  p-6 items-center justify-center space-x-5 mt-4">
+        <div className="p-6 ">
           <img src={imageOne} alt="" />
         </div>
         <div className="p-6">
