@@ -35,7 +35,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-0">
+      <div className="absolute top-0 -z-10">
         <img src={svg} alt="svg" />
       </div>
     </div>

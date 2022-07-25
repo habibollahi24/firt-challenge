@@ -11,7 +11,7 @@ const ClienySlider = () => {
           Check What Our Client Are Saying
         </div>
       </div>
-      <div className="grid grid-cols-2 mt-12">
+      <div className="grid md:grid-cols-2 mt-12">
         <div>
           <div className="bg-gray-50 rounded-2xl relative ">
             <div className="bg-orange-400 rounded-full p-3 text-3xl absolute right-0 bottom-1/2 translate-x-1/2 translate-y-1/2 text-white ">
@@ -19,12 +19,12 @@ const ClienySlider = () => {
             </div>
             <img src={imageSlider} alt="slider" />
           </div>
-          <div className="flex items-center space-x-3 mt-4">
+          <div className="flex items-center justify-center md:justify-start space-x-3 mt-4">
             <FaLongArrowAltLeft className="cursor-pointer flex items-center justify-center bg-transparent text-gray-600 p-1 w-6 h-6 rounded-full hover:bg-indigo-700 hover:text-white  " />
             <FaLongArrowAltRight className="cursor-pointer flex items-center justify-center bg-transparent text-gray-600 p-1 w-6 h-6 rounded-full hover:bg-indigo-700 hover:text-white  " />
           </div>
         </div>
-        <div className="pl-16 space-y-3">
+        <div className="md:pl-16 space-y-3">
           <div className="text-orange-400 text-3xl">
             <FaQuoteRight />
           </div>

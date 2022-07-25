@@ -70,7 +70,7 @@ const Footer = () => {
       </div>
       <div className="bg-slate-900 border-t-2 border-gray-400">
         <div className="my-container">
-          <div className="flex justify-between items-start text-gray-200  ">
+          <div className="flex flex-col md:flex-row space-y-5 md:space-y-0 text-center justify-center md:justify-between items-center text-gray-200  ">
             <p>2022 AR Shakir. All rights reserved. -- Privacy Policy - Terms of Services</p>
             <p>Supported by Microsoft Startup</p>
           </div>

@@ -10,7 +10,7 @@
     @apply container mx-auto p-4 max-w-screen-lg;
   }
   .btn {
-    @apply px-6 py-2 rounded-md cursor-pointer  text-gray-700 transition-all duration-300  text-sm hover:opacity-70;
+    @apply px-6 py-2 rounded-md cursor-pointer shadow-xl text-gray-700 transition-all duration-300  text-sm hover:opacity-70;
   }
   .btn-primary {
     @apply bg-indigo-700 text-white;

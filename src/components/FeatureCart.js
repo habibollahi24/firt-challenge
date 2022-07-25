@@ -11,6 +11,7 @@ const FeatureCart = () => {
         <div className="absolute right-0">
           <img src={pashmak} alt="" />
         </div>
+
         <div className=" py-12  grid md:grid-cols-2 gap-y-10">
           <div>
             <h2 className="text-blue-600 font-semibold mb-4">Our Feature</h2>
@@ -25,7 +26,7 @@ const FeatureCart = () => {
             <button className="btn btn-primary mt-6 ">Get Started</button>
           </div>
           <div className=" relative ">
-            <div className=" absolute -top-10 left-10  w-1/2 z-0 bg-white">
+            <div className=" md:absolute -top-10 left-10 w-full  md:w-1/2 z-0 bg-white rounded-md">
               <div className="absolute -right-5 -top-5 bg-teal-500 text-white text-6xl flex  justify-center items-center rounded-full w-16 h-16">
                 <HiBadgeCheck />
               </div>
@@ -63,7 +64,7 @@ const FeatureCart = () => {
                 </a>
               </div>
             </div>
-            <div className=" absolute bottom-0 w-1/2 right-7 z-10 bg-white ">
+            <div className=" md:absolute bottom-0  w-full   md:w-1/2 right-7 z-10 bg-white mt-5 md:mt-0 rounded-md">
               <div className="rounded-md shadow-xl  p-4 text-center">
                 <div className="rounded-full border-2 bg-orange-400 mx-auto w-max">
                   <img src={user} alt="user" className="object-cover w-16  inline-block " />
@@ -76,7 +77,7 @@ const FeatureCart = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-0">
+      <div className="absolute top-0 -z-10">
         <img src={svg} alt="svg" />
       </div>
     </div>
